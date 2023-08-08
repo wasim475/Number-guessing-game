@@ -1,0 +1,18 @@
+h2{
+    color: red;
+    display: none;
+}
+.check{
+    display: none;
+}
+
+.input2 {
+    display: none;
+}
+
+h3{
+    display: none;
+}
+.err{
+    color: red;
+}
