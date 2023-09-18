@@ -74,7 +74,7 @@ submit.addEventListener('click',function(){
         h2.style.display = 'none'
         player2name.innerHTML = userName.value
         player2.style.display = 'block'
-        player2name.style.color = 'green'
+        player2name.style.color = 'white'
         note.style.display = 'none'
         input2.focus()
     }
