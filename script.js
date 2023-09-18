@@ -17,6 +17,8 @@ let wName = document.querySelector('.wName')
 let lName = document.querySelector('.lName')
 let loser = document.querySelector('.loser')
 let userErr = document.querySelector('.userErr')
+let note = document.querySelector('.note')
+let nopn = document.querySelector('.nopn')
 
 
 userbtn.addEventListener('click', function(){
@@ -38,14 +40,16 @@ userbtn.addEventListener('click', function(){
     user.style.display = 'none'
     main.style.display = 'block'
     userErr.style.display = 'none'
+    nopn.innerHTML = userName.value.toLowerCase()
     input1.focus()
+
   }
 
 })
 
 submit.addEventListener('click',function(){
     if(!input1.value){
-        h2.innerHTML = 'Field is empty';
+        h2.innerHTML = 'Field is empty.';
         h2.style.display = 'block';
       
 
@@ -70,6 +74,8 @@ submit.addEventListener('click',function(){
         h2.style.display = 'none'
         player2name.innerHTML = userName.value
         player2.style.display = 'block'
+        player2name.style.color = 'green'
+        note.style.display = 'none'
         input2.focus()
     }
 })

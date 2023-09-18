@@ -38,8 +38,20 @@ h3{
 
 
 .player2name{
+    color: rgb(156, 5, 164);
+}
+.player2{
+    color: rgb(1, 179, 170);
 }
 .userErr{
     color: red;
     font-size: 20px;
+}
+
+.note{
+    color: green;
+}
+
+.note .nopn{
+    color: red;
 }
