@@ -16,3 +16,30 @@ h3{
 .err{
     color: red;
 }
+
+.main{
+    display: none;
+}
+.main .winner{
+    display: none;
+}
+
+.main .wName{
+    color: red;
+}
+.main .loser{
+    display: none;
+}
+
+.main .lName{
+    color: red;
+}
+
+
+
+.player2name{
+}
+.userErr{
+    color: red;
+    font-size: 20px;
+}

@@ -7,13 +7,23 @@
     <title>Guessing Game</title>
 </head>
 <body>
+  <div class="user">
+    <input class="userName" autofocus placeholder="Who wants to play?" type="text"> <button class="userbtn">Submit</button>
+    <h1 class="userErr"></h1>
+  </div>
+  <div class="main">
+    <h1 class="player2"><span class="player2name">Your</span>'s Turn.</h1>
     <h3>chance: <span class="count">3</span></h3>
-    <input type="password" name="" id="" class="input1"> 
+    <input placeholder="Type number 1-10" type="password" name="" id="" class="input1"> 
     <button class="submit">Submit</button>
-    <input type="text" class="input2" id="">
+    <input type="text" class="input2" id="" placeholder="Guess the number" autofocus>
     <button class="check">Check</button>
-    <h2>Error message</h2>
+    <h2></h2>
+    <h1 class="winner">Congrats! <span class="wName">player2</span>. You won the game.</h1>
+    <h1 class="loser">ops! <span class="lName">player2</span>. You lost. Better luck for the next time.</h1>
+
     <h1 class="err"></h1>
+  </div>
 <script src="script.js"></script>
 </body>
 </html>
