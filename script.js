@@ -25,17 +25,20 @@ userbtn.addEventListener('click', function(){
   if(!userName.value){
     userErr.innerHTML = 'Empty field.'
     userName.value = ''
+    userErr.style.fontSize = '15px'
     input1.focus()
   }
   else if((userName.value-11) ){
     h2.style.display = 'block'
     userErr.innerHTML = 'Number not allow as a player name.'
     userName.value = ''
+    userErr.style.fontSize = '15px'
     input1.focus()
   }
   else if(userName.value.length<3){
     userErr.innerHTML = 'Player name must be at least 3 characters long...'
     userName.value = ''
+    userErr.style.fontSize = '15px'
     input1.focus()
   }
   
@@ -54,6 +57,7 @@ submit.addEventListener('click',function(){
     if(!input1.value){
         h2.innerHTML = 'Field is empty.';
         h2.style.display = 'block';
+        h2.style.fontSize = '15px'
         input1.focus()
       
 
@@ -61,6 +65,7 @@ submit.addEventListener('click',function(){
     else if((input1.value-11==0)? false:!(input1.value-11) ){
         h2.innerHTML = 'Characters not allow. Enter a number between 1 to 10. '
         h2.style.display = 'block';
+        h2.style.fontSize = '15px'
         input1.value = ''
         input1.focus()
     }
@@ -68,6 +73,7 @@ submit.addEventListener('click',function(){
         
         h2.innerHTML = 'Please enter a number between 1 to 10.'
         h2.style.display = 'block';
+        h2.style.fontSize = '15px'
         input1.value = ''
         input1.focus()
     }
@@ -92,18 +98,21 @@ check.addEventListener('click',function(){
     
     if(!input2.value){
         err.innerHTML ='Empty field';
+        err.style.fontSize = '15px'
         input2.value = ''
         input2.focus()
     }
     else if(input2-20== 0 ? false: !(input2.value-20)){
         err.innerHTML= 'Try to guess a number between 1 to 10.'
         input2.value = ''
+        err.style.fontSize = '15px'
         input2.focus()
     }
     else if(!(input2.value>0 && input2.value<=10)){
         err.innerHTML= 'The number you have to guess is between 1 to 10.'
         input2.value = ''
         input2.focus()
+        err.style.fontSize = '15px'
     }
     else if(input2.value==input1.value){
         counter --
