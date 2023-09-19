@@ -125,9 +125,5 @@ body{
 }
 
 .note1P{
-    display: none;
-}
-.note1:hover .note1P{
-    display: inline-block;
     color: green;
 }
