@@ -70,7 +70,7 @@ body{
 .userbtn{
     width: 260px;
     margin-top: 10px;
-    padding:15px 40px ;
+    padding: 15px 50px;
     background-color: navy;
     color: white;
     border: 1px solid navy;
@@ -85,7 +85,7 @@ body{
 .submit{
     width: 260px;
     margin-top: 10px;
-    padding:15px 40px ;
+    padding: 15px 50px;
     background-color: navy;
     color: white;
     border: 1px solid navy;
@@ -107,7 +107,7 @@ body{
 .check{
     width: 260px;
     margin-top: 10px;
-    padding:15px 40px ;
+    padding: 15px 50px;
     background-color: navy;
     color: white;
     border: 1px solid navy;
