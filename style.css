@@ -58,3 +58,59 @@ h3{
 body{
     background-color: rgb(243, 186, 248);
 }
+
+.userName{
+    padding: 15px 50px;
+}
+
+.user{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.userbtn{
+    padding: 15px 40px;
+    background-color: navy;
+    color: white;
+    border: 1px solid navy;
+    border-radius: 10px;
+    transition: .5s ease;
+    margin-left: 5px;
+}
+.userbtn:hover{
+    background-color: transparent;
+    color: navy;
+}
+.submit{
+    padding: 15px 40px;
+    background-color: navy;
+    color: white;
+    border: 1px solid navy;
+    border-radius: 10px;
+    transition: .5s ease;
+    margin-left: 5px;
+}
+.submit:hover{
+    background-color: transparent;
+    color: navy;
+}
+
+.input1{
+    padding: 15px 50px;
+}
+.input2{
+    padding: 15px 50px;
+}
+
+.check{
+    padding: 15px 40px;
+    background-color: navy;
+    color: white;
+    border: 1px solid navy;
+    border-radius: 10px;
+    transition: .5s ease;
+    margin-left: 5px;
+}
+.check:hover{
+    background-color: transparent;
+    color: navy;
+}

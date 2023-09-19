@@ -25,15 +25,18 @@ userbtn.addEventListener('click', function(){
   if(!userName.value){
     userErr.innerHTML = 'Empty field.'
     userName.value = ''
+    input1.focus()
   }
   else if((userName.value-11) ){
     h2.style.display = 'block'
     userErr.innerHTML = 'Number not allow as a player name.'
     userName.value = ''
+    input1.focus()
   }
   else if(userName.value.length<3){
     userErr.innerHTML = 'Player name must be at least 3 characters long...'
     userName.value = ''
+    input1.focus()
   }
   
   else{
