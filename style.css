@@ -71,33 +71,37 @@ body{
     margin-left: 20px;
 }
 .userbtn{
-    width: 280px;
+    width: 285px;
     margin-top: 10px;
     padding: 15px 50px;
     background-color: navy;
     color: white;
-    border: 1px solid navy;
-    border-radius: 5px;
+    border: 2px solid navy;
+    border-radius: 8px;
     transition: .5s ease;
     
 }
 .userbtn:hover{
     background-color: transparent;
     color: navy;
+    font-weight: bolder;
+    font-style: italic;
 }
 .submit{
-    width: 280px;
+    width: 285px;
     margin-top: 10px;
     padding: 15px 50px;
     background-color: navy;
     color: white;
-    border: 1px solid navy;
+    border: 2px solid navy;
     border-radius: 5px;
     transition: .5s ease;
 }
 .submit:hover{
     background-color: transparent;
     color: navy;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 .input1{
@@ -108,19 +112,20 @@ body{
 }
 
 .check{
-    width: 280px;
+    width: 285px;
     margin-top: 10px;
     padding: 15px 50px;
     background-color: navy;
     color: white;
-    border: 1px solid navy;
+    border: 2px solid navy;
     border-radius: 5px;
     transition: .5s ease;
 }
 .check:hover{
     background-color: transparent;
     color: navy;
-    font-weight: bold;
+    font-weight: bolder;
+    font-style: italic;
 }
 
 .count{
