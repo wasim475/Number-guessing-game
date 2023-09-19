@@ -68,26 +68,29 @@ body{
     margin-left: 20px;
 }
 .userbtn{
-    padding: 15px 40px;
+    width: 260px;
+    margin-top: 10px;
+    padding:15px 40px ;
     background-color: navy;
     color: white;
     border: 1px solid navy;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: .5s ease;
-    margin-left: 5px;
+    
 }
 .userbtn:hover{
     background-color: transparent;
     color: navy;
 }
 .submit{
-    padding: 15px 40px;
+    width: 260px;
+    margin-top: 10px;
+    padding:15px 40px ;
     background-color: navy;
     color: white;
     border: 1px solid navy;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: .5s ease;
-    margin-left: 5px;
 }
 .submit:hover{
     background-color: transparent;
@@ -102,15 +105,29 @@ body{
 }
 
 .check{
-    padding: 15px 40px;
+    width: 260px;
+    margin-top: 10px;
+    padding:15px 40px ;
     background-color: navy;
     color: white;
     border: 1px solid navy;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: .5s ease;
-    margin-left: 5px;
 }
 .check:hover{
     background-color: transparent;
     color: navy;
+    font-weight: bold;
+}
+
+.count{
+    color: red;
+}
+
+.note1P{
+    display: none;
+}
+.note1:hover .note1P{
+    display: inline-block;
+    color: green;
 }

@@ -8,16 +8,18 @@
 </head>
 <body>
   <div class="user">
-    <input onblur="this.focus()" autofocus  class="userName" placeholder="Who wants to play?" type="text" required > <button class="userbtn">Submit</button>
+    <p class="note1">Note <span class="note1P">: Write the name of the person to play the game with.</span></p>
+    <input onblur="this.focus()" autofocus  class="userName" placeholder="Who wants to play?" type="text" required > <br> <button class="userbtn">Submit</button>
     <h1 class="userErr"></h1>
   </div>
   <div class="main">
+    
     <h1 class="player2"><span class="player2name">Your</span>'s Turn.</h1>
     <p class="note">Note: You give a number between 1 to 10, which <span class="nopn">player2</span> will try to guess in 3 chances.</p>
     <h3>chance: <span class="count">3</span></h3>
-    <input placeholder="Type number 1-10" type="password" name="" id="" class="input1"> 
+    <input  onblur="this.focus()" autofocus placeholder="Type number 1-10" type="password" name="" id="" class="input1"> <br>
     <button class="submit">Submit</button>
-    <input type="text" class="input2" id="" placeholder="Guess the number" autofocus>
+    <input  onblur="this.focus()" autofocus type="text" class="input2" id="" placeholder="Guess the number"> <br>
     <button class="check">Check</button>
     <h2></h2>
     <h1 class="winner">Congrats! <span class="wName">player2</span>. You won the game.</h1>
