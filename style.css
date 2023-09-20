@@ -145,13 +145,11 @@ body{
 .snp{
     display: none;
     color: green;
-    
+    margin-top: 240px;
+    margin-left: 60px;
 }
 
 .snp .Sn{
     color: blue;
 }
 
-.snp p{
-    text-align: center;
-}
