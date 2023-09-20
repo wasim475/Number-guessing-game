@@ -150,6 +150,8 @@ body{
 }
 
 .snp .Sn{
-    color: blue;
+    color: rgb(84, 0, 152);
+    font-size: 20px;
+    font-weight: bolder;
 }
 
