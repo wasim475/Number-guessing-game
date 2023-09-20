@@ -141,3 +141,17 @@ body{
 .appos{
     color: red;
 }
+
+.snp{
+    display: none;
+    color: green;
+    
+}
+
+.snp .Sn{
+    color: blue;
+}
+
+.snp p{
+    text-align: center;
+}

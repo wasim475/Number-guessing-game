@@ -19,6 +19,8 @@ let loser = document.querySelector('.loser')
 let userErr = document.querySelector('.userErr')
 let note = document.querySelector('.note')
 let nopn = document.querySelector('.nopn')
+let snp = document.querySelector('.snp')
+let Sn = document.querySelector('.Sn')
 
 
 userbtn.addEventListener('click', function(){
@@ -149,7 +151,8 @@ check.addEventListener('click',function(){
             input2.value = ''
             userName.value = ''
             input2.focus()
-            
+            snp.style.display = 'inline-block'
+            Sn.innerHTML = input1.value
         }
     }
    
