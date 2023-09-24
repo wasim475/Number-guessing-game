@@ -145,7 +145,6 @@ body{
 .snp{
     display: none;
     color: green;
-    margin-top: 240px;
     margin-left: 60px;
 }
 
@@ -153,5 +152,22 @@ body{
     color: rgb(84, 0, 152);
     font-size: 20px;
     font-weight: bolder;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+}
+.copyright {
+   
+    vertical-align: text-bottom;
+    bottom: 0;
+    text-align: center;
+   margin-top: 250px;
+   color: rgb(255, 255, 255);
+   
 }
 
